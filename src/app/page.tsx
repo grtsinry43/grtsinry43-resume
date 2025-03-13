@@ -42,7 +42,7 @@ export default function Resume() {
                             <div
                                 className="w-28 h-28 rounded-full border-4 border-white shadow-lg overflow-hidden bg-gradient-to-br from-blue-100 to-blue-50">
                                 <img src="https://dogeoss.grtsinry43.com/img/author.jpeg" alt="Profile"
-                                     className="w-full h-full object-cover"/>
+                                       className="w-full h-full object-cover"/>
                             </div>
                             <div
                                 className="absolute bottom-0 right-0 w-8 h-8 bg-green-400 rounded-full border-2 border-white flex items-center justify-center">
@@ -90,7 +90,7 @@ export default function Resume() {
                             <div className="flex items-center justify-center w-8 h-8 rounded-full bg-blue-50">
                                 <Globe className="h-4 w-4 text-blue-600"/>
                             </div>
-                            <a href="https://www.grtsinry43.com"
+                            <a href="https://www.grtsinry43.com" target="_blank"
                                className="text-gray-800 hover:text-blue-600 transition-colors">
                                 www.grtsinry43.com
                             </a>
@@ -99,7 +99,7 @@ export default function Resume() {
                             <div className="flex items-center justify-center w-8 h-8 rounded-full bg-blue-50">
                                 <FileText className="h-4 w-4 text-blue-600"/>
                             </div>
-                            <a href="https://blog.grtsinry43.com"
+                            <a href="https://blog.grtsinry43.com" target="_blank"
                                className="text-gray-800 hover:text-blue-600 transition-colors">
                                 blog.grtsinry43.com
                             </a>
@@ -108,7 +108,7 @@ export default function Resume() {
                             <div className="flex items-center justify-center w-8 h-8 rounded-full bg-blue-50">
                                 <Github className="h-4 w-4 text-blue-600"/>
                             </div>
-                            <a href="https://github.com/grtsinry43"
+                            <a href="https://github.com/grtsinry43" target="_blank"
                                className="text-gray-800 hover:text-blue-600 transition-colors">
                                 grtsinry43
                             </a>
@@ -364,6 +364,7 @@ export default function Resume() {
                                         <h3 className="text-base font-medium text-gray-900 flex items-center">
                                             <span> 全栈现代化博客系统 </span>
                                             <a href="https://blog.grtsinry43.com"
+                                               target="_blank"
                                                className="ml-2 text-xs text-blue-600 hover:underline">
                                                 blog.grtsinry43.com
                                             </a>
@@ -421,7 +422,7 @@ export default function Resume() {
                                     <div className="flex justify-between items-baseline mb-2">
                                         <h3 className="text-base font-medium text-gray-900 flex items-center">
                                             <span> 个人网站 </span>
-                                            <a href="https://www.grtsinry43.com"
+                                            <a href="https://www.grtsinry43.com" target="_blank"
                                                className="ml-2 text-xs text-green-600 hover:underline">
                                                 www.grtsinry43.com
                                             </a>
@@ -466,7 +467,7 @@ export default function Resume() {
                                     <div className="flex justify-between items-baseline mb-2">
                                         <h3 className="text-base font-medium text-gray-900 flex items-center">
                                             <span> 学校登山节系统 </span>
-                                            <a href="https://race.54sher.com"
+                                            <a href="https://race.54sher.com" target="_blank"
                                                className="ml-2 text-xs text-purple-600 hover:underline">
                                                 race.54sher.com
                                             </a>
@@ -504,34 +505,41 @@ export default function Resume() {
                                     </div>
                                 </div>
 
-                                <div className="bg-gradient-to-r from-yellow-50 to-transparent p-5 rounded-lg border border-yellow-100">
+                                <div
+                                    className="bg-gradient-to-r from-yellow-50 to-transparent p-5 rounded-lg border border-yellow-100">
                                     <div className="flex justify-between items-baseline mb-2">
                                         <h3 className="text-base font-medium text-gray-900 flex items-center">
-                                            <span>Pure Start 浏览器起始页</span>
-                                            <a href="https://justpure.dev" className="ml-2 text-xs text-yellow-600 hover:underline">
+                                            <span>Pure Start 浏览器起始页 </span>
+                                            <a href="https://justpure.dev" target="_blank"
+                                               className="ml-2 text-xs text-yellow-600 hover:underline">
                                                 justpure.dev
                                             </a>
                                         </h3>
                                     </div>
 
                                     <p className="text-gray-700 text-sm mb-3">
-                                        一个现代化、美观且高效的浏览器起始页，采用 Next.js 构建并支持服务端渲染和暗黑模式。项目基于 TypeScript 开发，利用 Shadcn-ui 实现主题定制，追求极简与性能并重，目前正处于早期开发阶段，欢迎提出建议与贡献代码。
+                                        一个现代化、美观且高效的浏览器起始页，采用 Next.js 构建并支持服务端渲染和暗黑模式。项目基于
+                                        TypeScript 开发，利用 Shadcn-ui 实现主题定制，追求极简与性能并重，目前正处于早期开发阶段，欢迎提出建议与贡献代码。
                                     </p>
 
                                     <div className="mb-3">
-                                        <h4 className="text-xs font-medium text-gray-500 uppercase mb-1">技术栈</h4>
+                                        <h4 className="text-xs font-medium text-gray-500 uppercase mb-1"> 技术栈 </h4>
                                         <div className="flex flex-wrap gap-1.5">
-                                            <Badge className="bg-gray-100 text-gray-800 hover:bg-gray-200">Next.js</Badge>
-                                            <Badge className="bg-gray-100 text-gray-800 hover:bg-gray-200">TypeScript</Badge>
-                                            <Badge className="bg-gray-100 text-gray-800 hover:bg-gray-200">Tailwind CSS</Badge>
-                                            <Badge className="bg-gray-100 text-gray-800 hover:bg-gray-200">Shadcn-ui</Badge>
+                                            <Badge
+                                                className="bg-gray-100 text-gray-800 hover:bg-gray-200">Next.js</Badge>
+                                            <Badge
+                                                className="bg-gray-100 text-gray-800 hover:bg-gray-200">TypeScript</Badge>
+                                            <Badge className="bg-gray-100 text-gray-800 hover:bg-gray-200">Tailwind
+                                                CSS</Badge>
+                                            <Badge
+                                                className="bg-gray-100 text-gray-800 hover:bg-gray-200">Shadcn-ui</Badge>
                                         </div>
                                     </div>
 
                                     <div>
                                         <h4 className="flex items-center text-xs font-medium text-gray-500 uppercase mb-1">
                                             <Zap className="h-3 w-3 mr-1 text-amber-500"/>
-                                            <span>技术难点</span>
+                                            <span> 技术难点 </span>
                                         </h4>
                                         <ul className="text-xs text-gray-700 space-y-1">
                                             <li>• 实现服务端渲染与客户端动态交互的无缝切换</li>
