@@ -10,6 +10,12 @@
 
 [![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/import/project?template=https://github.com/grtsinry43/grtsinry43-resume)
 
+## 效果截图
+
+![Image_244643903124277](https://github.com/user-attachments/assets/b04ea6b6-8ee2-43bb-94bb-07c2b35dd0bb)
+
+![Image_244645939367089](https://github.com/user-attachments/assets/acdc10d1-3274-428d-953c-e487fbb57e99)
+
 ## 快速开始
 
 ### 前提条件
